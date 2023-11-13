@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
-    public class Products
+    public class Product
     {
         public int Product_id { get; set; }
-        public string Name { get; set; }
-        public decimal Price { get; set; }
+        public string? Name { get; set; }
+        public string? Category { get; set; }
+        public string? Price { get; set; }
         public int Stock { get; set; }
         public bool Active { get; set; }
     }
