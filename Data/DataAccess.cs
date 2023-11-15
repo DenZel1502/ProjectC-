@@ -5,13 +5,13 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Data.SqlClient;
+using System.Data.SqlClient;
 
 namespace Data
 {
     public class DataAccess
     {
-        public static string connectionString = "Data Source=DESKTOP-IQJ52V9\\SQLEXPRESS;Initial Catalog=InvoiceDB;user ID=user;Password=123456";
+        public static string connectionString = "Data Source=DESKTOP-IQJ52V9\\SQLEXPRESS;Initial Catalog=InvoiceDB;User ID=user;Password=123456";
         public List<Product> Get()
         {
             List<Product> products = new List<Product>();
